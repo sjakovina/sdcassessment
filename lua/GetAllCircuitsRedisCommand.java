@@ -11,9 +11,6 @@ import org.swisspush.gateleen.core.util.RedisUtils;
 
 import java.util.List;
 
-/**
- * @author https://github.com/mcweba [Marc-Andre Weber]
- */
 public class GetAllCircuitsRedisCommand implements RedisCommand {
 
     private LuaScriptState luaScriptState;
