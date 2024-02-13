@@ -28,7 +28,6 @@ import static org.swisspush.gateleen.core.util.StatusCode.OK;
 /**
  * Manager class for the {@link QueueCircuitBreakerConfigurationResource}.
  *
- * @author https://github.com/mcweba [Marc-Andre Weber]
  */
 public class QueueCircuitBreakerConfigurationResourceManager implements LoggableResource {
     private static final String UPDATE_ADDRESS = "gateleen.queue-circuit-breaker.config-updated";
