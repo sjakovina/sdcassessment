@@ -10,14 +10,14 @@ A circuit can have different states. Your tasks is to have a look at the code, i
 Example for a state diagram and transitions, for a lamp and a button, with states (on, off) and the events and effects for the transactions (button pressed, deactivate lamp)
 
 
-                 	  +--------+
+        		  +--------+
         	 +------->+        | button pressed
 	no light |        |  OFF   +---------------------+
        		 +--------|        |   activate lamp     |
-        		        +---+----+                     |
-                    	  ^                          |
-                     	  |                          v
-                        |                       +--+---+
+        		  +---+----+                     |
+        		      ^                          |
+        		                                v
+        		      |                       +--+---+
                      	      |             +-------->+      |      
                      	      |       light |         |  ON  +
                      	      |             +---------+      |                       
