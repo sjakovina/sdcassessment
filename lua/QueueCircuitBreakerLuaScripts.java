@@ -1,4 +1,4 @@
-package org.swisspush.gateleen.queue.queuing.circuitbreaker.lua;
+package circuitbreaker.lua;
 
 import org.swisspush.gateleen.core.lua.LuaScript;
 
