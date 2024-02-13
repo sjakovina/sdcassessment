@@ -14,10 +14,10 @@ Example for a state diagram and transitions, for a lamp and a button, with state
         	 +------->+        | button pressed
 	no light |        |  OFF   +---------------------+
        		 +--------|        |   activate lamp     |
-        		  +---+----+                     |
-                    	      ^                          |
-                     	      |                          v
-                     	      |                       +--+---+
+        		        +---+----+                     |
+                    	  ^                          |
+                     	  |                          v
+                        |                       +--+---+
                      	      |             +-------->+      |      
                      	      |       light |         |  ON  +
                      	      |             +---------+      |                       
