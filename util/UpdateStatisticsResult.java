@@ -1,9 +1,8 @@
-package org.swisspush.gateleen.queue.queuing.circuitbreaker.util;
+package circuitbreaker.util;
 
 /**
  * Enumeration to represent the outcome of a statistics update.
  *
- * @author https://github.com/mcweba [Marc-Andre Weber]
  */
 public enum UpdateStatisticsResult {
     ERROR, OK, OPENED;
