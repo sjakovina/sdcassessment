@@ -7,7 +7,7 @@ The QCB can be used to protect your server from having to deal with lots of queu
 
 A circuit can have different states. Your tasks is to have a look at the code, indentify the different states and draw a crude state diagramm with the states and desribe the transistions between the states.
 
-Example for a state diagram and transitions, for a lamp and a button, with states (on, off) and the events and effects for the transactions (button pressed, deactivate lamp)
+Example for a state diagram and transitions, for a lamp and a button, with states (ON, OFF) and the events and effects for the transactions (button pressed, deactivate lamp)
 
 
         		  +--------+
