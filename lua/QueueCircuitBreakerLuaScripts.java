@@ -2,9 +2,6 @@ package circuitbreaker.lua;
 
 import org.swisspush.gateleen.core.lua.LuaScript;
 
-/**
- * @author https://github.com/mcweba [Marc-Andre Weber]
- */
 public enum QueueCircuitBreakerLuaScripts implements LuaScript{
 
     UPDATE_CIRCUIT("circuitbreaker_update.lua"),
