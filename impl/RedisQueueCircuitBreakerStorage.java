@@ -1,4 +1,4 @@
-package org.swisspush.gateleen.queue.queuing.circuitbreaker.impl;
+package circuitbreaker.impl;
 
 import io.vertx.core.CompositeFuture;
 import io.vertx.core.Future;
@@ -10,19 +10,19 @@ import org.slf4j.LoggerFactory;
 import org.swisspush.gateleen.core.lua.LuaScriptState;
 import org.swisspush.gateleen.core.redis.RedisProvider;
 import org.swisspush.gateleen.core.util.StringUtils;
-import org.swisspush.gateleen.queue.queuing.circuitbreaker.QueueCircuitBreakerStorage;
-import org.swisspush.gateleen.queue.queuing.circuitbreaker.lua.*;
-import org.swisspush.gateleen.queue.queuing.circuitbreaker.util.PatternAndCircuitHash;
-import org.swisspush.gateleen.queue.queuing.circuitbreaker.util.QueueCircuitState;
-import org.swisspush.gateleen.queue.queuing.circuitbreaker.util.QueueResponseType;
-import org.swisspush.gateleen.queue.queuing.circuitbreaker.util.UpdateStatisticsResult;
+
+import circuitbreaker.QueueCircuitBreakerStorage;
+import circuitbreaker.lua.*;
+import circuitbreaker.util.PatternAndCircuitHash;
+import circuitbreaker.util.QueueCircuitState;
+import circuitbreaker.util.QueueResponseType;
+import circuitbreaker.util.UpdateStatisticsResult;
 
 import java.util.*;
 
 /**
  * Redis based implementation of the {@link QueueCircuitBreakerStorage} interface.
  *
- * @author https://github.com/mcweba [Marc-Andre Weber]
  */
 public class RedisQueueCircuitBreakerStorage implements QueueCircuitBreakerStorage {
 
