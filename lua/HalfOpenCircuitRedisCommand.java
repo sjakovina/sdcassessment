@@ -9,9 +9,6 @@ import org.swisspush.gateleen.core.util.RedisUtils;
 
 import java.util.List;
 
-/**
- * @author https://github.com/mcweba [Marc-Andre Weber]
- */
 public class HalfOpenCircuitRedisCommand implements RedisCommand {
 
     private final LuaScriptState luaScriptState;
