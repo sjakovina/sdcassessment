@@ -1,17 +1,17 @@
-package org.swisspush.gateleen.queue.queuing.circuitbreaker;
+package circuitbreaker;
 
 import io.vertx.core.Future;
 import io.vertx.core.json.JsonObject;
 import io.vertx.redis.client.Response;
-import org.swisspush.gateleen.queue.queuing.circuitbreaker.util.PatternAndCircuitHash;
-import org.swisspush.gateleen.queue.queuing.circuitbreaker.util.QueueCircuitState;
-import org.swisspush.gateleen.queue.queuing.circuitbreaker.util.QueueResponseType;
-import org.swisspush.gateleen.queue.queuing.circuitbreaker.util.UpdateStatisticsResult;
+
+import circuitbreaker.util.PatternAndCircuitHash;
+import circuitbreaker.util.QueueCircuitState;
+import circuitbreaker.util.QueueResponseType;
+import circuitbreaker.util.UpdateStatisticsResult;
 
 /**
  * Provides storage access for the {@link QueueCircuitBreaker}.
  *
- * @author https://github.com/mcweba [Marc-Andre Weber]
  */
 public interface QueueCircuitBreakerStorage {
 
