@@ -18,10 +18,10 @@ Example for a state diagram and transitions, for a lamp and a button, with state
         		      ^                          |
         		      |                          v
         		      |                       +--+---+
-                     	      |             +-------->+      |      
-                     	      |       light |         |  ON  +
-                     	      |             +---------+      |                       
-                     	      |                       +---+--+
+                     |             +-------->+      |      
+                     |       light |         |  ON  +
+                     |             +---------+      |                       
+                     |                       +---+--+
 		     	      |	  button pressed	 |
 		     	      +---------------------------+
 					deactivate lamp
