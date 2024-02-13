@@ -1,4 +1,4 @@
-package org.swisspush.gateleen.queue.queuing.circuitbreaker.util;
+package circuitbreaker.util;
 
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
