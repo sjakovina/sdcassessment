@@ -1,4 +1,4 @@
-package org.swisspush.gateleen.queue.queuing.circuitbreaker.impl;
+package circuitbreaker.impl;
 
 import io.vertx.core.*;
 import io.vertx.core.eventbus.Message;
@@ -12,14 +12,15 @@ import org.swisspush.gateleen.core.http.HttpRequest;
 import org.swisspush.gateleen.core.lock.Lock;
 import org.swisspush.gateleen.core.refresh.Refreshable;
 import org.swisspush.gateleen.core.util.Address;
-import org.swisspush.gateleen.queue.queuing.circuitbreaker.QueueCircuitBreaker;
-import org.swisspush.gateleen.queue.queuing.circuitbreaker.QueueCircuitBreakerStorage;
-import org.swisspush.gateleen.queue.queuing.circuitbreaker.configuration.QueueCircuitBreakerConfigurationResource;
-import org.swisspush.gateleen.queue.queuing.circuitbreaker.configuration.QueueCircuitBreakerConfigurationResourceManager;
-import org.swisspush.gateleen.queue.queuing.circuitbreaker.util.*;
 import org.swisspush.gateleen.routing.Rule;
 import org.swisspush.gateleen.routing.RuleProvider;
 import org.swisspush.gateleen.routing.RuleProvider.RuleChangesObserver;
+
+import circuitbreaker.QueueCircuitBreaker;
+import circuitbreaker.QueueCircuitBreakerStorage;
+import circuitbreaker.configuration.QueueCircuitBreakerConfigurationResource;
+import circuitbreaker.configuration.QueueCircuitBreakerConfigurationResourceManager;
+import circuitbreaker.util.*;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -30,9 +31,6 @@ import static org.swisspush.gateleen.core.util.LockUtil.releaseLock;
 import static org.swisspush.redisques.util.RedisquesAPI.*;
 
 
-/**
- * @author https://github.com/mcweba [Marc-Andre Weber]
- */
 public class QueueCircuitBreakerImpl implements QueueCircuitBreaker, RuleChangesObserver, Refreshable {
 
     private final Logger log = LoggerFactory.getLogger(QueueCircuitBreakerImpl.class);
