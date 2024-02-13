@@ -1,4 +1,4 @@
-package org.swisspush.gateleen.queue.queuing.circuitbreaker.lua;
+package circuitbreaker.lua;
 
 import io.vertx.core.Promise;
 import org.slf4j.Logger;
@@ -6,7 +6,8 @@ import org.swisspush.gateleen.core.lua.LuaScriptState;
 import org.swisspush.gateleen.core.lua.RedisCommand;
 import org.swisspush.gateleen.core.redis.RedisProvider;
 import org.swisspush.gateleen.core.util.RedisUtils;
-import org.swisspush.gateleen.queue.queuing.circuitbreaker.util.UpdateStatisticsResult;
+
+import circuitbreaker.util.UpdateStatisticsResult;
 
 import java.util.List;
 
