@@ -3,7 +3,6 @@ package circuitbreaker.util;
 /**
  * Enumeration to represent the status of circuit.
  *
- * @author https://github.com/mcweba [Marc-Andre Weber]
  */
 public enum QueueCircuitState {
     CLOSED, OPEN, HALF_OPEN;
