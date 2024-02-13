@@ -1,9 +1,8 @@
-package org.swisspush.gateleen.queue.queuing.circuitbreaker.util;
+package circuitbreaker.util;
 
 /**
  * Enumeration to represent the possible result of queued request response.
  *
- * @author https://github.com/mcweba [Marc-Andre Weber]
  */
 public enum QueueResponseType {
     SUCCESS(":success"), FAILURE(":failure");
