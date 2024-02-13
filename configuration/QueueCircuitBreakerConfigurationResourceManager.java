@@ -1,4 +1,4 @@
-package org.swisspush.gateleen.queue.queuing.circuitbreaker.configuration;
+package circuitbreaker.configuration;
 
 import io.vertx.core.Handler;
 import io.vertx.core.Vertx;
