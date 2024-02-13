@@ -1,4 +1,4 @@
-package org.swisspush.gateleen.queue.queuing.circuitbreaker.util;
+package circuitbreaker.util;
 
 import java.util.regex.Pattern;
 
