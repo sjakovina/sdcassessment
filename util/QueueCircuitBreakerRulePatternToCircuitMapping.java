@@ -11,7 +11,6 @@ import java.util.regex.Pattern;
 /**
  * Helper class to map {@link Rule} objects to {@link PatternAndCircuitHash} objects.
  *
- * @author https://github.com/mcweba [Marc-Andre Weber]
  */
 public class QueueCircuitBreakerRulePatternToCircuitMapping {
 
