@@ -1,4 +1,4 @@
-package org.swisspush.gateleen.queue.queuing.circuitbreaker.util;
+package circuitbreaker.util;
 
 /**
  * Enumeration to represent the status of circuit.
