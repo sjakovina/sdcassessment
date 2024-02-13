@@ -1,4 +1,4 @@
-package org.swisspush.gateleen.queue.queuing.circuitbreaker.lua;
+package circuitbreaker.lua;
 
 import io.vertx.core.Promise;
 import io.vertx.redis.client.Response;
