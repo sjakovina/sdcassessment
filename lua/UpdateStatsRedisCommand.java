@@ -11,9 +11,6 @@ import circuitbreaker.util.UpdateStatisticsResult;
 
 import java.util.List;
 
-/**
- * @author https://github.com/mcweba [Marc-Andre Weber]
- */
 public class UpdateStatsRedisCommand implements RedisCommand {
 
     private final LuaScriptState luaScriptState;
